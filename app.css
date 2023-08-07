@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.bg-img {
+    height: 100%;
+}
+
+.card-front {
+    position: absolute;
+    left: 20%;
+    top: 33%;
+    transform: translate(-50%, -50%);
+    width: 447px;
+    height: 245px;
+    background-image: url("./images/bg-card-front.png");
+}
+
 .completed {
     display: none;
 }
