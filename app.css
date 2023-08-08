@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+:root {
+    --white: #fff;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
+    font-family: "Space Grotesk";
+    font-weight: 500;
     display: flex;
 }
 
@@ -20,6 +26,7 @@ body {
     transform: translate(-50%, -50%);
     width: 447px;
     height: 245px;
+    color: var(--white);
     background-image: url("./images/bg-card-front.png");
 }
 
