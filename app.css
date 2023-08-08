@@ -50,6 +50,40 @@ body {
     width: 387px;
 }
 
+.card-back {
+    position: absolute;
+    left: 26%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    width: 447px;
+    height: 245px;
+    color: var(--white);
+    font-size: 14px;
+    text-transform: uppercase;
+    background-image: url("./images/bg-card-back.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-back span {
+    margin: 0px 0px 5px 300px;
+    padding: 0;
+}
+
+form {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 447px;
+    height: 400px;
+}
+
 .completed {
     display: none;
 }
