@@ -26,24 +26,32 @@
   </div>
 
   <form>
-    <h4>Cardholder Name</h4>
-    <input type="text" placeholder="e.g. Jane Appleseed" />
-
-    <h4>Card Number</h4>
-    <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
-
-    <div class="bottom-flex">
+    <div>
       <div>
-        <h4>Exp. Date (MM/YY)</h4>
-        <div class="bottom-input-flex">
-          <input type="text" placeholder="MM" />
-          <input type="text" placeholder="YY" />
-        </div>
+        <h4>Cardholder Name</h4>
+        <input type="text" placeholder="e.g. Jane Appleseed" />
       </div>
+      <div class="error"></div>
 
       <div>
-        <h4>CVC</h4>
-        <input type="text" placeholder="e.g. 123" />
+        <h4>Card Number</h4>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+      </div>
+      <div class="error"></div>
+
+      <div class="bottom-flex">
+        <div>
+          <h4>Exp. Date (MM/YY)</h4>
+          <div class="bottom-input-flex">
+            <input type="text" placeholder="MM" />
+            <input type="text" placeholder="YY" />
+          </div>
+        </div>
+
+        <div>
+          <h4>CVC</h4>
+          <input type="text" placeholder="e.g. 123" />
+        </div>
       </div>
     </div>
     <button>
